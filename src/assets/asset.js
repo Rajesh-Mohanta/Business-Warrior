@@ -32,6 +32,8 @@ import asset44 from "./asset 44.webp";
 import msg from "./asset 4.svg";
 import close from "./close.svg";
 
+import asset4 from "./asset 4.svg";
+
 export {
   logo,
   back,
@@ -65,4 +67,5 @@ export {
   asset44,
   msg,
   close,
+  asset4,
 };

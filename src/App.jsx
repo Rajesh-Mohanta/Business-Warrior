@@ -8,6 +8,7 @@ import Navbar from "./Components/Navbar";
 import Payplan from "./Components/Payplan";
 import Staticstics from "./Components/Staticstics";
 import Testimonial from "./Components/Testimonial";
+import ChatWidget from "./Components/ChatWidget";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Testimonial />
         <Contact />
         <Footer />
+        <ChatWidget />
       </div>
     </div>
   );

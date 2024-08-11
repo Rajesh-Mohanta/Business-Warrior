@@ -3,7 +3,7 @@ import { mirza, kigi, amicus, edvisio, patria } from "../assets/asset";
 
 function Company() {
   return (
-    <div className="mt-16 lg:mt-32 flex flex-wrap gap-6 md:gap-8 justify-center mx-auto">
+    <div className="mt-10 lg:mt-12 flex flex-wrap gap-6 justify-center mx-auto w-[600px]">
       <img
         src={mirza}
         alt="Mirza"

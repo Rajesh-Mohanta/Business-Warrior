@@ -1,5 +1,6 @@
 import React from "react";
 import { benefits } from "../assets/index";
+import AnimatedItem from "./AnimatedItem";
 
 function Benefits() {
   return (
@@ -9,9 +10,10 @@ function Benefits() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
         {benefits.map((item, id) => (
-          <div
-            className="flex flex-col justify-center items-center gap-4 md:gap-6 border shadow-lg p-2 md:p-2 lg:p-4"
+          <AnimatedItem
             key={id}
+            index={id}
+            className="flex flex-col justify-center items-center gap-4 md:gap-6 border shadow-lg p-2 md:p-2 lg:p-4"
           >
             <img
               src={item.imgURL}
@@ -27,7 +29,7 @@ function Benefits() {
             <p className="text-sm md:text-lg lg:text-xl text-sky-600 cursor-pointer underline">
               {item.learn}
             </p>
-          </div>
+          </AnimatedItem>
         ))}
       </div>
     </div>

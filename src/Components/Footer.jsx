@@ -27,13 +27,13 @@ function Footer() {
       </div>
       <hr className="mx-4 md:mx-6" />
       <div className="flex flex-col md:flex-row justify-between mx-4 md:mx-6 pt-8">
-        <div className="flex gap-3 justify-center md:justify-start mb-4 md:mb-0">
+        <div className="flex gap-3 justify-center md:justify-start mb-4 md:mb-0 ">
           {socialMedia.map((social, id) => (
             <img
               src={social.src}
               alt={social.alt}
               key={id}
-              className="text-[20px]"
+              className="text-[20px] cursor-pointer"
             />
           ))}
         </div>
